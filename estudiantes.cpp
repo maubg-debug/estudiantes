@@ -55,7 +55,7 @@ void eliminar_estudiantes()
     temp.close();
     stud.close();
     remove("temp.txt");
-    cout<<"\n ¡hecho! \n";
+    cout<<"\n  hecho! \n";
 }
 void actualizar_estudiantes()
 {
@@ -114,7 +114,7 @@ void actualizar_estudiantes()
     temp.close();
     stud.close();
     remove("temp.txt");
-    cout<<"\n ¡Hecho! \n";
+    cout<<"\n  Hecho! \n";
 }
 
 void mirar_todo() {
@@ -167,7 +167,7 @@ void buscar_estudiantes(   ) {
     }
 
     if(x==0) {
-        cout<<" \n ¡No se encontro!\n";
+        cout<<" \n  No se encontro!\n";
     }
 
     stud.close();
@@ -190,7 +190,7 @@ void insertar_estudiantes() {
     cout <<" \n años :: ";
     cin.getline(age,25);
     stud << name<<'|'<<phone<<'|'<<age<<'\n';
-    cout << " ¡Hecho!";
+    cout << "  Hecho!";
     stud.close();
 }
 
